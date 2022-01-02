@@ -17,7 +17,7 @@ namespace ServerConfigRest_101_Raditya_Pratama_Putra
             {
                 hostObjek = new ServiceHost(typeof(TI_UMY));
                 hostObjek.Open();
-                Console.WriteLine("Server is Ready..");
+                Console.WriteLine("Server is Ready...");
                 Console.ReadLine();
                 hostObjek.Close();
             }
